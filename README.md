@@ -27,5 +27,5 @@ For bonus points first ssh to a remote machine to run the jupyter notebook.
   2. Install the dependancies using Poetry (See [Poetry Docs](https://python-poetry.org/basic-usage))
   3. Run the Jupyer [pytorch_mnist notebook](notebooks/pytorch_mnist.ipynb) in the poetry environment. *If running on a remote machine [here](https://benjlindsay.com/posts/running-jupyter-lab-remotely) is a hint*
   4. Identify/Fix the issues (one or more cells will fail, you'll need to fix them)
-  5. Create a Merge Request with your fix
+  5. Create a Pull Request with your fix
     - Use the command `nbstripout notebooks/pytorch_mnist.ipynb` before adding the fixed notebook to your commit. This will clear the output cells so only the code and text cells remain.
